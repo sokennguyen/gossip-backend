@@ -18,6 +18,6 @@ app.use(cors())
 app.use(express.static('dist'))
 app.use(express.json())
 
-app.use('/api/login',login router)
+app.use('/api/user', usersRouter)
 
 module.exports = app
